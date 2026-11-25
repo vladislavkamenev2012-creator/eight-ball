@@ -1,0 +1,100 @@
+.app {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #1a1a2e;
+  background: #1a1a2e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ball-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.ball {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, #4a4a58, #111 65%, #000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+
+.window {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background: #090b16;
+  border: 3px solid #2e3244;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 42px solid transparent;
+  border-right: 42px solid transparent;
+  border-top: 72px solid #13296b;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle span {
+  position: absolute;
+  top: -62px;
+  width: 76px;
+  color: #dce6ff;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.result-box {
+  background: #f5f6fa;
+  padding: 14px 18px;
+  border-radius: 8px;
+}
+
+.question {
+  margin: 0 0 6px;
+  color: #555;
+}
+
+.answer {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
